@@ -10,6 +10,11 @@ namespace LibrettoVoti
         public Libretto()
         {
             this.voti = new List<Voto>();
-        } 
+        }
+
+        public void add(Voto v)
+        {
+            this.voti.Add(v);
+        }
     }
 }
