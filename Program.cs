@@ -6,7 +6,8 @@ namespace LibrettoVoti
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Libretto lib = new Libretto();
+            lib.add(new Voto("Analisi 1", 30));
         }
     }
 }
