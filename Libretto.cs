@@ -16,5 +16,11 @@ namespace LibrettoVoti
         {
             this.voti.Add(v);
         }
+        
+        // override metodo toString
+        public string toString()
+        {
+            return this.voti.ToString();
+        }
     }
 }
