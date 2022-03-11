@@ -8,6 +8,7 @@ namespace LibrettoVoti
         {
             Libretto lib = new Libretto();
             lib.add(new Voto("Analisi 1", 30));
+            Console.WriteLine(lib);
         }
     }
 }

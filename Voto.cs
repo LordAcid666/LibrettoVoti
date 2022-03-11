@@ -30,5 +30,11 @@ namespace LibrettoVoti
         {
             this.punti = punti;
         }
+
+        public override string ToString()
+        {
+            //return $"Nome: {nome}, Punti: {punti}";
+            return "Voto [nome:" + nome + ", punti: " + punti + "]";
+        }
     }
 }
