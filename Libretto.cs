@@ -26,10 +26,11 @@ namespace LibrettoVoti
                 if (v.getPunti() == punti)
                     result.add(v);
             }
+            return result;
         }
 
         // override toString
-        public string toString()
+        public override string ToString()
         {
             return this.voti.ToString();
         }
