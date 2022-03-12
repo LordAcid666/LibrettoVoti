@@ -16,8 +16,19 @@ namespace LibrettoVoti
         {
             this.voti.Add(v);
         }
-        
-        // override metodo toString
+
+        //per trovare i voti da stampare
+        public Libretto filtraPunti(int punti)
+        {
+            Libretto result = new Libretto();
+            foreach (Voto v in this.voti)
+            {
+                if (v.getPunti() == punti)
+                    result.add(v);
+            }
+        }
+
+        // override toString
         public string toString()
         {
             return this.voti.ToString();
