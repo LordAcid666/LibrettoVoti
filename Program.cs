@@ -18,6 +18,6 @@ namespace LibrettoVoti
             Libretto lib25 = lib.filtraPunti(25);
             Console.WriteLine(lib25);
 
-        }
+        }//end_main
     }
 }
